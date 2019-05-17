@@ -6,6 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from '../images/logo.svg';
 
 class Navbar extends React.Component {
+	handleChange = (e) => {
+		console.log({ value: e.target.value });
+	};
+	handleClick = (e) => {
+		console.log('the button was clicked');
+	};
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,16 +26,41 @@ class Navbar extends React.Component {
 					aria-controls="navbarSupportedContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
+					onClick={this.handleClick}
 				>
 					<span className="navbar-toggler-icon" />
 				</button>
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav mr-auto">
-						<li className="nav-item active">
-							<a className="nav-link" href="#412412">
-								Quiénes somos <span className="sr-only">(current)</span>
+						<li className="nav-item dropdown">
+							<a
+								className="nav-link dropdown-toggle"
+								href="dropdown-menu"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								onClick={this.handleClick}
+							>
+								Quiénes somos
 							</a>
+							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a className="dropdown-item" href="http://google.com">
+									Nuestra historia
+								</a>
+								<a className="dropdown-item" href="#7DCD40">
+									Misión, visión y valores
+								</a>
+								<a className="dropdown-item" href="#7DCD40">
+									Directorio
+								</a>
+								<div className="dropdown-divider" />
+								<a className="dropdown-item" href="#7DCD40">
+									Políticas
+								</a>
+							</div>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#7DCD40">
@@ -49,15 +80,18 @@ class Navbar extends React.Component {
 								En línea
 							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a className="dropdown-item" href="#7DCD40">
-									Action
+								<a className="dropdown-item" href="http://google.com">
+									Nuestra historia
 								</a>
 								<a className="dropdown-item" href="#7DCD40">
-									Another action
+									Misión, visión y valores
+								</a>
+								<a className="dropdown-item" href="#7DCD40">
+									Directorio
 								</a>
 								<div className="dropdown-divider" />
 								<a className="dropdown-item" href="#7DCD40">
-									Something else here
+									Políticas
 								</a>
 							</div>
 						</li>
