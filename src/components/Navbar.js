@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from '../images/logo.svg';
 
 class Navbar extends React.Component {
+  state={  button: {
+    this.props.handleClick;
+  }};
 	handleChange = (e) => {
 		console.log({ value: e.target.value });
 	};
