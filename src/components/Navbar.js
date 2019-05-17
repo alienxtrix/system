@@ -1,14 +1,12 @@
 import React from 'react';
 import { nav } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 // import './styles/Navbar.css';
 // import logo from '../images/logo.svg';
 
 class Navbar extends React.Component {
-  state={  button: {
-    this.props.handleClick;
-  }};
 	handleChange = (e) => {
 		console.log({ value: e.target.value });
 	};
@@ -50,9 +48,9 @@ class Navbar extends React.Component {
 								Quiénes somos
 							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a className="dropdown-item" href="http://google.com">
+								<Link className="dropdown-item" to="/WhoWeAre">
 									Nuestra historia
-								</a>
+								</Link>
 								<a className="dropdown-item" href="#7DCD40">
 									Misión, visión y valores
 								</a>
