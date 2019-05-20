@@ -2,6 +2,7 @@ import React from 'react';
 import { nav } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import header from '../images/logocasaTransparencia.png';
 
 // import './styles/Navbar.css';
 // import logo from '../images/logo.svg';
@@ -15,10 +16,11 @@ class Navbar extends React.Component {
 	};
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="#123456">
-					SISTEMAS CASA
+			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a className="navbar-left" href="#123456">
+					<img src={header} width="30" height="30" alt="ddd" />
 				</a>
+
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -105,12 +107,12 @@ class Navbar extends React.Component {
 					<form className="form-inline my-2 my-lg-0">
 						<input
 							className="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
+							type="Search"
+							placeholder="¿Qué desea buscar?"
 							aria-label="Search"
 						/>
 						<button className="btn btn-outline-success my-2 my-sm-0" type="submit">
-							Search
+							Buscar
 						</button>
 					</form>
 				</div>
