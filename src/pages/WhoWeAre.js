@@ -3,20 +3,55 @@ class WhoWeAre extends React.Component {
 	render() {
 		console.log('ee');
 		return (
-			<h1>
-				<p>Formalmente establecida en 1995.</p>
-				<p>
-					Nos ubicamos en el Sector Industrial de Software especializado en sistemas aduanales de nuestro
-					país.
-				</p>
-				<p>
-					Con doce años de experiencia en el medio informático y aduanal nos ubicamos en la clasificación de
-					Pequeña empresa mexicana. Nuestro mercado principal son empresas usuarias del comercio exterior de
-					nuestro país. específicamente empresas denominadas como: Agencias aduanales,
-					importadoras/Exportadoras con apoderado aduanal y, Almacenes Generales de Depósito. ... Afiliados p
-					la Asociación de Mexicana de la Industria de Tecnologías de Información, A.C. (AMITI).
-				</p>
-			</h1>
+			<div>
+				<h5>
+					<p>Formalmente establecida en 1995.</p>
+					<p>
+						Nos ubicamos en el Sector Industrial de Software especializado en sistemas aduanales de nuestro
+						país.
+					</p>
+					<p>
+						Con doce años de experiencia en el medio informático y aduanal nos ubicamos en la clasificación
+						de Pequeña empresa mexicana. Nuestro mercado principal son empresas usuarias del comercio
+						exterior de nuestro país. específicamente empresas denominadas como: Agencias aduanales,
+						importadoras/Exportadoras con apoderado aduanal y, Almacenes Generales de Depósito. ...
+						Afiliados p la Asociación de Mexicana de la Industria de Tecnologías de Información, A.C.
+						(AMITI).
+					</p>
+				</h5>
+
+				<h6>
+					<p>
+						La firma del Tratado de Libre Comercio de América del Norte (TLCAN) que México celebró con
+						Canadá y Estados Unidos el 17 de diciembre de 1992 y que entró en vigor el 1 de enero de 1994,
+						significó el inicio de la apertura comercial del país. Esta apertura comercial enmarcada por una
+						tendencia internacional hacia la globalización económica propició cambios en materia de comercio
+						exterior, no sólo en cuestión de política y negociación comercial, sino también, en la
+						reestructuración del Sistema Aduanero Mexicano. Pues para responder a la aplicación del TLCAN,
+						el estado debía poner especial énfasis en la eficiencia de la operación aduanera a fin de
+						favorecer el flujo comercial y el control de las aduanas del país. Una de las primeras medidas
+						para la reestructuración del Sistema Aduanero fue el uso de la Tecnología de la información [1]
+						, por lo que en 1993, la Secretaría de Hacienda y Crédito Público a través de la Subsecretaría
+						de Ingresos instrumentó un proyecto nacional denominado “Sistema Automatizado Aduanero Integral
+						(S.A.A.I.)” y que actualmente está bajo la coordinación del órgano de Servicios de
+						Administración Tributaria de la misma secretaría. El nuevo sistema aduanero propició el
+						surgimiento de empresas privadas en el ámbito del desarrollo de software [2] para participar
+						activamente en la automatización de los procesos operativos aduanales denominados “despacho
+						aduanal” [3] especificados por la normatividad correspondiente en la materia. Ante tal panorama,
+						la empresa Computación y Asesoría en Sistemas Aduanales, S.A. de C.V. (establecida en 1992 y que
+						ya desarrollaba sistemas de cómputo para operaciones aduanales bajo el Sistema de Captura
+						Desconcentrada del Pedimento Aduanal CADEPA) en 1995 con una mejor organización de empresa
+						cambia su razón social por la de SISTEMAS CASA, S.A. de C.V. con el propósito de apoyar en las
+						necesidades de automatización de las agencias aduanales ante los requerimientos del proyecto
+						nacional S.A.A.I. El S.A.A.I. fue diseñado para desarrollarse en fases, esto ha implicado una
+						constante modernización del sistema aduanal no solo en aspectos legislativos, de facilitación,
+						competitividad, armonización o simplificación de procedimientos, sino también, en aspectos de
+						mejoras informáticas, automatización, actualización tecnológica, infraestructura y equipamiento.
+						Esto ha ubicado a nuestra empresa en una relación constante y directa con los diferentes
+						usuarios y actores del comercio exterior participantes en el Sistema Aduanero Mexicano.
+					</p>
+				</h6>
+			</div>
 		);
 	}
 }

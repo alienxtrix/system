@@ -50,7 +50,7 @@ class Navbar extends React.Component {
 								Quiénes somos
 							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-								<Link className="dropdown-item" to="/WhoWeAre">
+								<Link className="dropdown-item" to="/whoweare">
 									Nuestra historia
 								</Link>
 								<a className="dropdown-item" href="#7DCD40">
@@ -99,9 +99,9 @@ class Navbar extends React.Component {
 							</div>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link disabled" href="#7DCD40" tabindex="-1" aria-disabled="true">
+							<Link className="nav-link" to="/contact">
 								Contacto
-							</a>
+							</Link>
 						</li>
 					</ul>
 					<form className="form-inline my-2 my-lg-0">
