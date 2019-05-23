@@ -48,12 +48,12 @@ class Navbar extends React.Component {
 								Quiénes somos
 							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-								<Link className="dropdown-item" to="/whoweare">
+								<Link className="dropdown-item" to="/whoweare" data-nav-section="history">
 									Nuestra historia
 								</Link>
-								<a className="dropdown-item" href="#7DCD40">
+								<Link className="dropdown-item" href="#" to="/whoweare" data-nav-section="culture">
 									Misión, visión y valores
-								</a>
+								</Link>
 								<a className="dropdown-item" href="#7DCD40">
 									Directorio
 								</a>
