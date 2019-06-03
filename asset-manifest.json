@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/system/static/css/main.53453d1f.chunk.css",
+    "main.js": "/system/static/js/main.8eb78d59.chunk.js",
+    "main.js.map": "/system/static/js/main.8eb78d59.chunk.js.map",
+    "runtime~main.js": "/system/static/js/runtime~main.b3783146.js",
+    "runtime~main.js.map": "/system/static/js/runtime~main.b3783146.js.map",
+    "static/css/2.1dadb59b.chunk.css": "/system/static/css/2.1dadb59b.chunk.css",
+    "static/js/2.c14f22c7.chunk.js": "/system/static/js/2.c14f22c7.chunk.js",
+    "static/js/2.c14f22c7.chunk.js.map": "/system/static/js/2.c14f22c7.chunk.js.map",
+    "index.html": "/system/index.html",
+    "precache-manifest.bb81ede707811c8e9990a7a25182b197.js": "/system/precache-manifest.bb81ede707811c8e9990a7a25182b197.js",
+    "service-worker.js": "/system/service-worker.js",
+    "static/css/2.1dadb59b.chunk.css.map": "/system/static/css/2.1dadb59b.chunk.css.map",
+    "static/css/main.53453d1f.chunk.css.map": "/system/static/css/main.53453d1f.chunk.css.map",
+    "static/media/astronauts.svg": "/system/static/media/astronauts.71addf45.svg",
+    "static/media/badge-header.svg": "/system/static/media/badge-header.973f5842.svg",
+    "static/media/logocasaTransparencia.png": "/system/static/media/logocasaTransparencia.b55cf24d.png",
+    "static/media/BadgeNew.css": "/system/static/media/stars.1d17360a.svg"
+  }
+}
